@@ -3,7 +3,7 @@
   justify-content: center;
   width: 75%;
 }
-@media (max-with:770px){
+@media screen and (max-with:770px){
   .container{
     width: 100%;
   }

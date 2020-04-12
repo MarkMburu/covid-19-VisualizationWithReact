@@ -6,16 +6,27 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  max-width: 100%;
+}
+.footer{
+     text-align: center;
+     margin-top: 20px; 
+     color:#333333;
+     font-size: 1.4em;
 }
 .image{
-  width: 370px;
-  margin-top: 50px;
+  /* width: 100%;
+  margin-top: 50px; */
+  transition: width 0.5s;
+  width: 50vw;
 }
-@media (max-width: 770px){
+@media screen and (max-width: 770px){
   .container{
     margin: 0 10%;
   }
   .image{
-    width: 100%;
+    /* width: 100%; */
+    max-width: 90vw;
+    width: 90vw;
   }
 }
